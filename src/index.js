@@ -82,7 +82,7 @@ domready(
                     const g = data[offset + 1];
                     const b = data[offset + 2];
 
-                    if (r > 0 && b > 0)
+                    if (r > 127 && b > 127)
                     {
                         count++;
                     }
