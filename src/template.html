@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>panic</title>
+    <title>Box/Circle intersection</title>
 
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/solid.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/gamehero-bootstrap.min.css" />
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -15,6 +18,34 @@
         Your browser has no support for canvas elements.
     </p>
 </canvas>
+<div id="sidebar" class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h1>
+                Box/Circle intersection
+            </h1>
+
+            <p>
+                Pixel count: <span id="pixel-out"></span>
+            </p>
+            <p>
+                Calculation Result: <span id="result-out"></span>
+            </p>
+            <form id="form" autocomplete="off">
+                <div class="form-check">
+                    <input id="shape-box" class="form-check-input" type="radio" name="shape" value="Box" checked>
+                    <label for="shape-box" class="form-check-label">Update Box</label>
+                </div>
+                <div class="form-check">
+                    <input id="shape-circle" class="form-check-input" type="radio" name="shape" value="Circle">
+                    <label for="shape-circle" class="form-check-label">Update Circle</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</div>
 <div id="ui"></div>
 <a class="github" href="https://github.com/fforw/ilines">github</a>
 </body>

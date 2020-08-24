@@ -1,3 +1,5 @@
-# Simple Starter
+# Box/Circle intersection
 
-Simple JS build starter for simple, client-only demos.
+Draws a red box and blue circle and lets the user adjust both interactively.
+
+Compare calculation result with the number of purplish pixels being red back.

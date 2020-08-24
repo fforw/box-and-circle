@@ -25,3 +25,16 @@ body
     font-family: monospace;
     font-size: 0.8rem;
 }
+
+#sidebar
+{
+    width: 300px;
+    position: absolute;
+    right: 0;
+}
+
+#form label
+{
+    display: block;
+    padding:
+}

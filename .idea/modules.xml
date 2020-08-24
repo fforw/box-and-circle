@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/panic.iml" filepath="$PROJECT_DIR$/.idea/panic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/box-and-circle.iml" filepath="$PROJECT_DIR$/.idea/box-and-circle.iml" />
     </modules>
   </component>
 </project>
