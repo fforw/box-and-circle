@@ -28,7 +28,7 @@
         "glslify-hex": "^2.1.1",
         "glslify-loader": "^2.0.0",
         "html-webpack-plugin": "^4.3.0",
-        "loader-utils": "^2.0.0",
+        "loader-utils": "^2.0.4",
         "mini-css-extract-plugin": "^0.10.0",
         "mocha": "^8.1.1",
         "power-assert": "^1.6.1",
